@@ -4,8 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100dvh;
     background: url(../assets/imgs/wall.png);
+    height: 100dvh;
+    justify-content: space-between;
 }
 .menu{
     display: flex;
@@ -43,13 +44,38 @@ h2#live{
 }
 
 .painel {
-    margin-top: 1rem;
     border: 1px solid #ff0000;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     height: 700px;
     width: 700px;
 }
+
+.painel-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.square {
+    border: 1px solid #000;
+    background-color: #b63628;
+}
+
+.enemy {
+    background: #ff0000 url(../assets/imgs/ralph.gif) top/cover ;/
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-top: .4rem solid #ffd700;
+}
+
 /* Para telas menores que 750px */
 @media (max-width: 750px) {
     .painel {
@@ -79,18 +105,4 @@ h2#live{
         width: 300px;
     }
   
-}
-
-.painel-row{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-}
-
-.square {
-    border: 1px solid #000;
-    background-color: #b63628;
-}
-
-.enemy {
-    background: #ff0000 url(../assets/imgs/ralph.gif) top/cover ;/
 }
