@@ -5,7 +5,7 @@ Bem-vindo ao **Detona Ralph**, um jogo empolgante e cheio de surpresas! Este é 
 ## Funcionalidades 🚀
 
 - **Clique no Boneco:** Clique no boneco que aparece aleatoriamente na tela para marcar pontos.
-- **Aumento de Dificuldade:** À medida que o tempo passa, a dificuldade aumenta, tornando o jogo mais desafiador.
+- **Aumento de Dificuldade:** À medida que o score aumenta, a dificuldade aumenta, tornando o jogo mais desafiador.
 - **Feedback Sonoro:** Sons de "acerto" e "erro" para fornecer feedback imediato ao clicar no boneco.
 
 ## Tecnologias Utilizadas 🛠️
@@ -42,3 +42,11 @@ Bem-vindo ao **Detona Ralph**, um jogo empolgante e cheio de surpresas! Este é 
 │    │   ├── index.css
 │    │   └── reset.css
 └── README.md
+```
+
+## Ideias para o projeto - prazo indeterminado
+- Animações para a adição de tempo
+- Modal para substituir o alert de end game
+- "Bomba" adicionar uma bomba que aparece de forma random a partir de certa dificuldade e caso seja clicado o player perde uma vida.
+- modelos mais dificeis com 16 quadrados, e 25 quadrados com possibilidade de multiplos RALPHs e multiplas bomba.
+- Possibilidade de gerar uma função caso o ralph nao seja clicado perde vida.
